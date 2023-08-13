@@ -17,7 +17,8 @@ const routes: Routes = [
       path: 'add',
       children: [
         {path: 'vendor-details', component: VendorDetailsComponent},
-        {path: 'contract-details', component: ContractDetailsComponent}
+        {path: 'contract-details', component: ContractDetailsComponent},
+        { path: '', pathMatch: 'full', redirectTo: 'vendor-details'}
       ]
   
     }

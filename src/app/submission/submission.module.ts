@@ -4,6 +4,7 @@ import { SearchSubmissionComponent } from './search-submission/search-submission
 import { VendorDetailsComponent } from './vendor-details/vendor-details.component';
 import { ContractDetailsComponent } from './contract-details/contract-details.component';
 import { SubmissionRoutingModule } from './submission-routing.module';
+import { ReactiveFormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -13,6 +14,7 @@ import { SubmissionRoutingModule } from './submission-routing.module';
   ],
   imports: [
     CommonModule,
+    ReactiveFormsModule,
     SubmissionRoutingModule
   ],
   

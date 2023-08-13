@@ -12,4 +12,8 @@ export class SearchSubmissionComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  search(e: FormDataEvent) {
+    e.preventDefault();
+    console.log(e.formData);
+  }
 }

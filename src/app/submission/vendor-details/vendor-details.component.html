@@ -1,1 +1,22 @@
-<p>vendor-details works!</p>
+<div class="section-details">
+<h1>Submission Details</h1>
+<h3>Vendor Details</h3>
+<form [formGroup]="vendorDetailsForm" (ngSubmit)="onSubmit(vendorDetailsForm)">
+<table>    
+    <tr>
+        <td><label>Submission Date</label></td>
+    </tr>
+    <tr>
+        <td><input formControlName="submissionDate" placeholder="mm/dd/yyyy"/></td>
+    </tr>
+    <tr>
+        <td><label>Vendor Contact Name</label></td>
+    </tr>
+    <tr>
+        <td><input formControlName="vendorContactName" placeholder="vendor contact name"/></td>
+    </tr>
+    <tr><td></td></tr>
+    <tr><td><button name="Continue" type="submit">Continue</button></td></tr>
+</table>
+</form>
+</div>

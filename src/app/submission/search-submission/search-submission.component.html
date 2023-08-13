@@ -1,1 +1,15 @@
-<p>search-submission works!</p>
+<div class="section-details">
+<h1>Search Submission</h1>
+<button type="button" routerLink="/submissions/add">Add Submission</button>
+<table>
+    <tr>
+        <td>Vendor Contact Name</td><td>Vendor Contact Email</td><td>Vendor Contact Phone</td><td></td>
+    </tr>
+    <tr>
+        <td><input name="vendorContactName"/></td><td><input name="vendorContactEmail"/></td><td><input name="vendorContactPhone"/></td>
+    </tr>
+    <tr>
+        <td colspan="3"><button (onClick)="search">Search</button></td>
+    </tr>
+</table>
+</div>
