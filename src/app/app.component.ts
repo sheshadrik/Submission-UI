@@ -1,4 +1,6 @@
 import { Component } from '@angular/core';
+import { ColDef } from 'ag-grid-community';
+import { ISubmission } from './submission/search-submission/search-submission.component';
 
 @Component({
   selector: 'app-root',
@@ -7,5 +9,7 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title: string = 'Submission Details';
+
+
 
 }
