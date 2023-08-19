@@ -3,6 +3,7 @@ import { Routes, RouterModule } from '@angular/router';
 import { SearchSubmissionComponent } from './search-submission/search-submission.component';
 import { ContractDetailsComponent } from './contract-details/contract-details.component';
 import { VendorDetailsComponent } from './vendor-details/vendor-details.component';
+import { SubmissionSuccessComponent } from './submission-success/submission-success.component';
 
 
 const routes: Routes = [
@@ -18,7 +19,8 @@ const routes: Routes = [
       children: [
         {path: 'vendor-details', component: VendorDetailsComponent},
         {path: 'contract-details', component: ContractDetailsComponent},
-        { path: '', pathMatch: 'full', redirectTo: 'vendor-details'}
+        { path: '', pathMatch: 'full', redirectTo: 'vendor-details'},
+        {path: 'submission-success', component: SubmissionSuccessComponent}
       ]
   
     }

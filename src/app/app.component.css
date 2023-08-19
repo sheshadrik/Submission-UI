@@ -1,0 +1,13 @@
+div.section-details {
+    margin: auto;
+    width: 300px;
+    }
+
+    .msg-success {
+        color: green;
+    }
+
+    .main-content {
+        background-color: #CCCCFF;
+        height: max-content;
+    }

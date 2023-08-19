@@ -17,7 +17,7 @@ export class VendorDetailsComponent implements OnInit {
       submissionDate: new FormControl(''),
       vendorContactName: new FormControl(''),
       vendorContactEmail: new FormControl(''),
-      vendorContactphone: new FormControl(''),
+      vendorContactPhone: new FormControl(''),
       vendorCompany: new FormControl('')
 
     });

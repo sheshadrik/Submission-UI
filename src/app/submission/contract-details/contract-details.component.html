@@ -1,1 +1,47 @@
-<p>contract-details works!</p>
+<div class="section-details">
+    <h1>Submission Details</h1>
+    <h3>Contract Details</h3>
+    <form [formGroup]="contractDetailsForm" (ngSubmit)="onSubmit(contractDetailsForm)">
+    <table>    
+        <tr>
+            <td><label>Implementation Partner</label></td>
+        </tr>
+        <tr>
+            <td><input formControlName="implementationPartner" placeholder="Implementation Partner name"/></td>
+        </tr>
+        <tr>
+            <td><label>Client Contact Name</label></td>
+        </tr>
+        <tr>
+            <td><input formControlName="clientContactName" placeholder="Client Contact Name"/></td>
+        </tr>
+        <tr>
+            <td><label>Client Contact Email</label></td>
+        </tr>
+        <tr>
+            <td><input formControlName="clientContactEmail" placeholder="Client contact email"/></td>
+        </tr>
+        <tr>
+            <td><label>Client Contact Phone</label></td>
+        </tr>
+        <tr>
+            <td><input formControlName="clientContactPhone" placeholder="Client contact Phone"/></td>
+        </tr>
+        <tr>
+            <td><label>Contract duration(Months)</label></td>
+        </tr>
+        <tr>
+            <td><input formControlName="contractDuration" placeholder="Contract duration(Months)"/></td>
+        </tr>
+        <tr>
+            <td><label>Rate per hour</label></td>
+        </tr>
+        <tr>
+            <td><input formControlName="payRateHour" placeholder="Rate per hour"/></td>
+        </tr>
+        <tr><td></td></tr>
+        <tr><td><button name="Continue" type="submit">Continue</button></td></tr>
+    </table>
+    </form>
+    </div>
+    

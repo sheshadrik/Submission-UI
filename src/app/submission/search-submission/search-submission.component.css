@@ -6,3 +6,28 @@ div.section-details {
 margin: auto;
 width: 300px;
 }
+#add-submission {
+    width: 50%;
+    
+}
+button {
+    color: #6600CC;
+    font-weight: bold;
+    font-size: 15;
+    font-family: sans-serif;
+    border: solid #000000;
+}
+.search-outer-table {
+border: #000000 solid;
+border-collapse: collapse;
+margin-top: 10px;
+}
+.search-header {
+background-color: #DEDEDE;
+border: #000000 solid;
+height: 30px;
+}
+
+.search-label {
+margin: 5px;
+}
